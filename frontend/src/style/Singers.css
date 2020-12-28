@@ -1,0 +1,77 @@
+
+.singers {
+  background: white;
+}
+.input-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.singer-rows {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+a:link {
+  color:rgb(4, 20, 34);
+}
+
+.singer-container {
+  background: linear-gradient(
+    90deg,
+    rgb(78, 77, 77) 0%,
+    rgb(100, 77, 77) 100%
+  );
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.head-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+.singer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background: rgb(78, 77, 77);
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.singer-row:nth-child(2n + 1) {
+  background: whitesmoke;
+  color:rgb(78, 77, 77);
+}
+
+.song-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  
+  background: rgb(78, 77, 77);
+
+  padding: 16px;
+  border-radius: 5px;
+  width: 72%;
+
+}
+  
+  
+  .singer, .header-lg {
+    flex: 1 0 50%;
+  }
+  
+  .header-lg, .singer-header .header, .singer, .award {
+    flex: 1 0 63%;
+  }

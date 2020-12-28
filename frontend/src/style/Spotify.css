@@ -1,0 +1,82 @@
+
+.Dashboard {
+    background: white;
+  }
+  .input-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .song-rows {
+    align-items: center;
+    width: 80%;
+  }
+  
+  a:link {
+    color:rgb(4, 20, 34);
+  }
+  
+  .input-container {
+    flex: 1 0 20%;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .song-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    
+    background: rgb(78, 77, 77);
+  
+    padding: 16px;
+    border-radius: 5px;
+    width: 72%;
+  
+  }
+
+  .songs-container {
+    background: linear-gradient(
+      90deg,
+      rgb(78, 77, 77) 0%,
+      rgb(100, 77, 77) 100%
+    );
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .song-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    
+    background: rgb(78, 77, 77);
+  
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+  }
+  
+  .song-row:nth-child(2n + 1) {
+    background: whitesmoke;
+    color:rgb(78, 77, 77);
+  }
+  
+
+  
+  .header-lg, .song-header .header, .artist, .song-name {
+    flex: 1 0 25%;
+  }
+  
+  .h5 {
+    border-style: inset;
+    height: 50px;
+    width: 70px;
+  }
